@@ -1,0 +1,80 @@
+body {
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+  }
+  h1 {
+    color: rgb(0, 255, 127)
+  }
+  
+   h1, p {
+     margin:10px auto;
+     text-align: center
+   }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+  }
+  input, textarea, select {
+    width: 100%;
+    min-height: 2em;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    background-color: #0a0a23;
+    color: #f5f6f7;
+    border: None;
+    border-radius: 10px
+  }
+  input[class="user-info"]:hover {
+    border: 2px solid rgb(0,255,127)
+  }
+  select:hover{
+    border: 2px solid rgb(0,255,127)
+  }
+  textarea:hover {
+    border: 2px solid rgb(0,255,127)
+  }
+  
+  .inline {
+    width: unset;
+    vertical-align: middle;
+    margin-left: 1rem
+  }
+  
+  a{
+    color: #f5f6f7
+  }
+  a:hover {
+    color: rgb(0, 255, 127)
+  }
+  
+  input[type="submit"] {
+    background-color: #0a0a23;
+    width: 70%;
+    border: 3px solid white;
+    margin: 1em 15%;
+    text-align: center
+  }
+  input[type="submit"]:hover {
+    background-color: rgb(0, 255, 127);
+    border: 2px solid #0a0a23;
+    color: #0a0a23;
+  }
+  fieldset {
+    border: None;
+    margin-bottom: 1em;
+  }
+  fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #0a0a23
+  }
+  
+ 
+  
+  

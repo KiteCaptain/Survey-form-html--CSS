@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta content="viewport" width="device-width initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title"> Survey Form</h1>
+  <p id="description">This is a survey form</p>
+  <form id="survey-form">
+    <fieldset>
+      <label  id="name-label">Firstname: <input class="user-info" type="text" id="name" placeholder="Enter your firstname" required/></label>
+      <label id="last-name">Lastname: <input class="user-info" type"text" id="name" placeholder="Enter your lastname"/></label>
+      <label id="email-label">Enter your email: <input class="user-info" type="email" id ="email"placeholder="eg. example@domain.com" required/></label>
+      <label id="number-label">What's your age?: <input class="user-info" type="number" id="number" placeholder="Age in years" min="12" max="90"/></label>
+      <label class="terms" id="terms-text">Before continuing, do you agree to our <a href="//" class="privacy-policy">privacy policy</a> on how we process your data and our <a href="//" class="terms-and-conditions">terms and conditions</a>? </label>
+      <label><input name="terms-agreement" class="inline" type="radio" value="do-not-agree"/> I do not agree</label>
+      <label><input  name="terms-agreement" class="inline" type="radio" value="agreed"/> I agree </label>
+    </fieldset>
+    <fieldset>
+      <label>
+        What is your option? 
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Option1</option>
+        <option value="2">Option2</option>
+        <option value="3">Other</option>
+      </select>
+      </label>
+      <label>
+        What is your second option?  
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="4">Option1</option>
+        <option value="5">Option2</option>
+        <option value="6">Other</option>
+      </select>
+      </label>
+      <label>
+        What is your third option?  
+      <select id="dropdown">
+        <option  value="">(select one)</option>
+        <option  value="7">Option1</option>
+        <option  value="8">Option2</option>
+        <option  value="9">Other</option>
+      </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>What do you prefer?</label>
+      <label><input class="inline" type="radio" name="preference" value="preference-one"/> Preference One</label>
+      <label><input class="inline" type="radio" name="preference" value="preference-two"/> Preference Two</label>
+      <label>Which do you consider better?</label>
+      <label><input class="inline" type="radio" name="consideration" value="preference-three"/> Preference Three</label>
+      <label><input class="inline" type="radio" name="consideration" value="preference-four"/> Preference Four</label>
+    </fieldset>
+    <fieldset>
+      <label>Select your areas of interest</label>
+      <label><input class="inline" type="checkbox" value="area1"/> Area One</label>
+      <label><input class="inline" type="checkbox" value="area2"/> Area Two</label>
+      <label><input class="inline" type="checkbox" value="area3"/> Area Three</label>
+      <label><input class="inline" type="checkbox" value="area4"/> Area Four</label>
+      <label><input class="inline" type="checkbox" value="area5"/> Area Five</label>
+      <label><input class="inline" type="checkbox" value="other"/> Other</label>
+      <label>If other Please give a short description below</label>
+      <textarea rows="2" cols="30" placeholder="Your area of interest"></textarea>
+    </fieldset>
+    <fieldset>
+    <label> Any comments on the state of affairs in the "On going survey matters"?</label>
+    <textarea id="comment-section"name="comment-section" rows="5" cols="30" placeholder="What other views do you have?"></textarea>
+  </fielset>
+    <input id="submit" type="submit" value="submit"/>
+  </form>
+</body>
+</html
+
+
+
